@@ -13,7 +13,7 @@ if (array_key_exists("search", $_POST)) {
 }
 
 /* Must have API key from Google.  It can go here or, optionally hidden inside the GoogleTranslate Class */
-$api_key = 'AIzaSyBR4iPz1XOeD9MmY4dJYxTKYMdRKkfG8Rk';
+$api_key = 'TheKey';
 
 /* Set the class object and execute the translate request */
 $obj = new GoogleTranslate($api_key);
